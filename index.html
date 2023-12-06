@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background : #fff;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-top: 26.5vh;
+        }
+
+        .google-logo {
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .search-bar {
+            max-width: 34vw;
+            margin: 0 auto;
+            border-radius: 25px; /* Added border-radius to the search bar */
+            padding: 10px; /* Added padding for better visual */
+            min-width: 70%;
+        }
+        .search-bar img{
+            width: 36px;
+        }
+
+        .search-bar input[type="text"]{
+            border-radius: 100px;
+            padding: 2.8%;
+            width: 50vw;
+        }
+        .search-bar input[type="text"]:hover{
+            box-shadow: #e4e5e6 5px 2px 5px 2px;
+        }
+        .input-group-append {
+            margin-top: 10px;
+            justify-content: center;
+            margin: 3%;
+        }
+        .input-group-append [type="button"]{
+            background: #f5f5f6;
+        }
+
+        .input-group-append [type="button"]:hover{
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="col-md-12 d-flex align-items-center mt-1" style="margin-left:83%">
+        <ul class="mt-2 fs-3 d-flex list-unstyled me-auto">
+            <li class="mr-3"><a href="#" style="color: black; font-size:13px">Gmail</a></li>
+            <li class="mr-3"><a href="#" style="color: black; font-size:13px">Images</a></li>
+            <li class="mr-3"><img src="img/icon.png" alt="" width="20"></li>
+        </ul>
+        <button type="button" class="signin btn btn-outline-primary bg-primary text-white pl-4 pr-4" style="font-size: 14px;">Sign in</button>
+    </div>
+    
+    <div class="container search-container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="img-fluid google-logo">
+
+                <div class="input-group search-bar">
+                    
+                    <input type="text" class="form-control" placeholder="Search Google">
+
+                </div>
+                <div class="input-group-append">
+                    <button class="btn  ml-2" type="button">Google Search</button>
+                    <button class="btn ml-2" type="button">I'm Feeling Lucky</button>
+                </div>
+                <div class="mt-4">
+                    <p style="color: #5f6368;font-size:14px">Google offered in: <a href="#" style="color: #1a0dab;">English বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div class="footer container-fluid" style="position: fixed; bottom: 0;">
+    <div class="row justify-content-center">
+        <div class="col-md-12 border-bottom" style="background-color: #f5f5f5;">
+            <p class="mt-2 fs-3 text-center ">India</p>
+        </div>
+        <div class="col-md-12 d-flex align-items-center" style="background-color: #f5f5f5;">
+            <ul class="mt-2 fs-3 d-flex list-unstyled mx-auto">
+                <li class="mr-3"><a href="#" style="color:black">Advertising</a></li>
+                <li class="mr-3"><a href="#" style="color:black">Business</a></li>
+                <li class="mr-3"><a href="#" style="color:black">About</a></li>
+                <li><a href="#" style="color: black">How Search works</a></li>
+            </ul>
+        </div>
+        
+</div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
